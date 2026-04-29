@@ -1,6 +1,6 @@
 <?php
 
-function CheckStatusKelulusan($grade, $remidial){
+function checkStatusKelulusan($grade, $remidial){
     if($grade > 70 && $remidial < 95){
         echo "anda lulus";
     }else{
@@ -8,7 +8,7 @@ function CheckStatusKelulusan($grade, $remidial){
     }
 }
 
-CheckStatusKelulusan(77, 80);
+checkStatusKelulusan(77, 80);
 
 // Tugas : Membuat function untuk menghitung Luas Persegi panjang
 
